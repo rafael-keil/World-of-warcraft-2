@@ -1,0 +1,53 @@
+.character__details_content {
+  display: flex;
+}
+
+.character__details_info_stats {
+  color: #fff;
+}
+
+.character__details_info_main,
+.character__details_info_general,
+.character__details_info_combat,
+.character__details_info_equipments {
+  background-color: #0008;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.character__details_info_main_name {
+  color: #f4c001;
+  font-size: 18px;
+  text-shadow: 0 0 5px #000;
+}
+
+.big__class {
+  height: 80vh;
+  width: 70%;
+}
+
+.big__class > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.big__class > img {
+  max-width: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid;
+  box-shadow: 0 0 10px 2px black, 0 0 10px 2px black;
+}
+
+.mirror__data {
+  flex-direction: row-reverse;
+}
+
+.hide__general,
+.hide__combat,
+.hide__items {
+  display: none;
+}

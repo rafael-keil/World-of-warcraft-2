@@ -1,0 +1,58 @@
+.busy__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/bg-busy.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.busy__title {
+  margin-top: 20px;
+  text-align: center;
+  font-family: wowBase;
+  color: #b18a57;
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black;
+}
+
+.busy__container-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 50px;
+  padding: 10px;
+  height: 400px;
+  width: 500px;
+  border-radius: 10px;
+  border: 3px solid;
+  box-shadow: 0 0 10px 2px black, 0 0 10px 2px black;
+}
+
+.busy__finish {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000a8;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.busy__timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 10px;
+  width: 400px;
+  height: 50px;
+}
+
+.busy__progress {
+  margin-bottom: 10px;
+}

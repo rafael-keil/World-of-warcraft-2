@@ -1,0 +1,12 @@
+.input {
+  border-radius: 5px;
+  border: 1px solid;
+  box-shadow: 0 0 10px 2px black, 0 0 10px 2px black;
+  color: rgb(148, 148, 148);
+  width: 250px;
+  height: 28px;
+  background-color: rgba(0, 0, 0, 0.596);
+  font-family: wowBase;
+  font-size: 20px;
+  padding: 2px;
+}

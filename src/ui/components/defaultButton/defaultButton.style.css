@@ -1,0 +1,17 @@
+.defaultButton {
+  background-color: #760700;
+  color: rgb(148, 148, 148);
+  width: 250px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid;
+  box-shadow: 0 0 10px 2px black, 0 0 10px 2px black;
+}
+
+.back_button {
+  position: absolute;
+  top: 2vh;
+  left: 1vw;
+  display: flex;
+  gap: 10px;
+}

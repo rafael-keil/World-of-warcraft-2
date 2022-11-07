@@ -1,0 +1,14 @@
+.turn_interaction {
+  display: flex;
+  border: 2px solid;
+}
+
+.turn_interaction__round {
+  width: 60px;
+  background-color: rgb(39, 36, 28);
+}
+
+.turn_interaction__damage {
+  flex-grow: 5;
+  background-color: rgba(0, 0, 0, 0.555);
+}

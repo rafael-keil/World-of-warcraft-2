@@ -1,0 +1,6 @@
+.defaultText {
+  font-family: wowBase;
+  color: #b18a57;
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black;
+  font-size: 20px;
+}

@@ -1,0 +1,29 @@
+.character__busy__wall {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9;
+}
+
+.character__busy_text {
+  margin-bottom: 30px;
+  font-family: wowBase;
+}
+
+.character__busy_alert {
+  height: 40vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #cecece;
+  z-index: 10;
+}

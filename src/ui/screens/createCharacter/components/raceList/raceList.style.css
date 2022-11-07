@@ -1,0 +1,23 @@
+.race__list {
+  background-color: #7777;
+  color: #fff;
+  margin: 3px auto;
+  padding: 3px;
+}
+
+.race__list:hover {
+  background-color: #7773;
+}
+
+.race__list:focus {
+  background-color: #7773;
+}
+
+.race__info {
+  padding: 2px;
+  margin: 2px;
+}
+
+.race__info-name {
+  border-bottom: 1px solid #fff7;
+}

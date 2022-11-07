@@ -1,0 +1,39 @@
+.character__list {
+  width: 96%;
+  background-color: rgba(200, 200, 200, 0.6);
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.character__list:hover {
+  background-color: rgba(200, 200, 200, 0.8);
+}
+
+.character__list:focus {
+  background-color: rgba(200, 200, 200, 1);
+}
+
+.character__level-race {
+  display: flex;
+  justify-content: space-between;
+  color: #fefefe;
+}
+
+.character__level {
+  padding-right: 10px;
+}
+
+.character__busy {
+  color: #5f6061;
+}
+
+.hide_battle {
+  display: none;
+}
+
+.hide_kda {
+  display: none;
+}

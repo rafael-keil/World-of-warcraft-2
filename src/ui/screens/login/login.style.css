@@ -1,0 +1,25 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  gap: 30px;
+}
+
+.login__logo {
+  max-width: 500px;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  gap: 20px;
+}
+
+.login__label {
+  padding: 8px 0;
+}

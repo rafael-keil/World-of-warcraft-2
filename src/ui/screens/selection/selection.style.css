@@ -1,0 +1,40 @@
+.selection__content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../assets/bg-selection.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.selection__title {
+  height: 5vh;
+}
+
+.selection__details-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selection__list {
+  height: 85vh;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.selection__list_title {
+  font-size: 18px;
+  color: #fefefe;
+}
+
+.selection__footer {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

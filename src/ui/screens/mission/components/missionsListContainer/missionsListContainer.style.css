@@ -1,0 +1,10 @@
+.missions-list-container__board {
+  height: 60vh;
+  margin: 10px 50px;
+  overflow-y: scroll;
+  padding: 0 1px;
+  background-color: #3a362c;
+  border-radius: 10px;
+  border: 4px solid #3a362c;
+  box-shadow: 0 0 10px 2px black, 0 0 10px 2px black;
+}

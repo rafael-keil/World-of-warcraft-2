@@ -1,0 +1,47 @@
+.pvp__content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../assets/bg-pvp.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.pvp__header {
+  height: 5vh;
+}
+
+.pvp__character_details {
+  padding-top: 10px;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+}
+.pvp__list_title {
+  color: #fefefe;
+}
+
+.pvp__list__section {
+  width: 30%;
+}
+
+.pvp__list__section > input {
+  margin: 5px 0;
+}
+
+.pvp__list {
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 80vh;
+}
+
+.pvp__footer {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

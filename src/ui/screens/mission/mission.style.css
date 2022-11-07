@@ -1,0 +1,33 @@
+.mission__background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/bg-mission.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.mission__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission__container-screen-about-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mission__container-character-image {
+  max-height: 70vh;
+  margin: 10px;
+  border-radius: 10px;
+  border: 3px solid;
+  box-shadow: 0 0 10px 2px black, 0 0 10px 2px black;
+}
+
+.mission__container-character {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}

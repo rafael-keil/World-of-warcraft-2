@@ -1,0 +1,24 @@
+.itemButton {
+  width: 200px;
+  height: 180px;
+  background-color: #760700;
+  color: rgb(148, 148, 148);
+  border: 1px solid;
+  box-shadow: 0 0 10px 2px black, 0 0 10px 2px black;
+  margin: 5px 0;
+}
+
+.itemButton:disabled {
+  opacity: 0.3;
+}
+
+.itemButton__image {
+  max-height: 80px;
+}
+
+.itemButton > p {
+  font-family: wowBase;
+  color: #b18a57;
+  text-shadow: 0 0 3px black, 0 0 3px black, 0 0 3px black;
+  font-size: 14px;
+}

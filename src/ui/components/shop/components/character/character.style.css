@@ -1,0 +1,17 @@
+.character {
+  height: 45vh;
+  width: 80%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 10px;
+  border: 3px solid;
+  box-shadow: 0 0 10px 2px black, 0 0 10px 2px black;
+}
+
+.character__info {
+  background-color: rgba(0, 0, 0, 0.671);
+}
